@@ -1,0 +1,52 @@
+
+*{
+    font-size:50px;
+}
+.container {
+    background-color:rgb(252, 241, 225);
+    padding: 2%;
+    border-radius:10%;
+    text-align: center;
+    line-height: 30pt;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:50%;
+}
+
+h1{
+    font-size: 70%;
+    margin-bottom:5%;
+}
+p{
+    margin-top:0%;
+    margin-bottom:1%;
+}
+.container button,p{
+    font-size: 35%;
+}
+input{
+    width: 10%;
+    text-align: center;
+}
+input,button {
+    cursor: pointer;
+}
+button{
+    width:50%;
+    padding:2%;
+    margin-top:2%;
+    margin-bottom:5%;
+    background-color:rgb(165 106 83) ;
+    border:none;
+    color:white;
+}
+.result p{
+    margin-top:-3%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
