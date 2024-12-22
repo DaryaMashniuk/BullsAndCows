@@ -41,6 +41,10 @@ button{
     background-color:rgb(165 106 83) ;
     border:none;
     color:white;
+    
+}
+.container button{
+    font-size: 30%;
 }
 .result p{
     margin-top:-3%;
@@ -50,3 +54,59 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0; 
 }
+@media screen and (max-width: 700px) {
+    .container {
+        width:80%;
+        line-height: 15pt;
+    }
+
+    
+}
+@media screen and (max-width: 600px) {
+
+    h1{
+        font-size: 50%;
+        margin-bottom:5%;
+    }
+    p {
+        font-size: 30%;
+        margin-bottom: 7%;
+    }
+    input{
+        width: 14%;
+        text-align: center;
+        font-size: 60%;
+    }
+    .container button{
+        font-size: 20%;
+    }
+  }
+  @media screen and (max-width: 400px) {
+
+    h1{
+        font-size: 40%;
+        margin-bottom:5%;
+    }
+    p {
+        font-size: 25%;
+    }
+    input{
+        width: 18%;
+        text-align: center;
+
+    }
+  }
+  @media screen and (max-width: 400px) {
+
+    h1{
+        font-size: 40%;
+        margin-bottom:5%;
+    }
+    p {
+        font-size: 25%;
+    }
+    input{
+        width: 15%;
+        text-align: center;
+    }
+  }
